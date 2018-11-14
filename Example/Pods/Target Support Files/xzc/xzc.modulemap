@@ -1,0 +1,6 @@
+framework module xzc {
+  umbrella header "xzc-umbrella.h"
+
+  export *
+  module * { export * }
+}

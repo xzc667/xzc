@@ -1,0 +1,37 @@
+PODS:
+  - Expecta (1.0.5)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - Specta (1.0.6)
+  - xzc (1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - "Expecta+Snapshots"
+  - Specta
+  - xzc (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - Specta
+
+EXTERNAL SOURCES:
+  xzc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+  xzc: 68e847470bb05b67df6c362af511ed7f05ea41d1
+
+PODFILE CHECKSUM: f010266c6911a56e50fcd94d679e40f1db3982b3
+
+COCOAPODS: 1.6.0.beta.2
